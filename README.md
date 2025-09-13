@@ -69,7 +69,7 @@ npm install
 
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/myfinances
 <h4>Start the backend server: </h4>
-npm start
+npm run dev
 <p>The backend will run on http://localhost:5000. </p>
 
 <h3>4. Frontend Setup </h3>
