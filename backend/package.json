@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node ./build/index.ts",
     "build": "tsc -p .",
-    "dev": "nodemon ./src/index.ts"
+    "dev": "nodemon ./src/index.ts",
+  "prestart": "npm run build"
+
   },
   "keywords": [],
   "author": "",
