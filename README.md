@@ -57,7 +57,7 @@
 
 <h3>2. Clone the Repository </h3>
 
-<p>git clone "apni-repository-ka-link-yahan-dalen"</p>
+<p>git clone https://github.com/Saloni-developer01/Personal-Finance-tracker.git</p>
 <p>cd your repository name</p>
 
 <h3>3. Backend Setup </h3>
@@ -80,7 +80,7 @@ npm install
 <p>Create a .env.local file in the frontend folder. </p>
 Important: Get your publishable key from Clerk and paste your backend API URL.
 
-NEXT_PUBLIC_API_URL=http://localhost:5000
+NEXT_PUBLIC_API_URL=http://localhost:5000 </br>
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= write your clerk key
 
 
